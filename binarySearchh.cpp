@@ -150,7 +150,15 @@ void binarySearch()
     } while (ulang == 'y' || ulang == 'Y');
 } 
 
-int
+int main()
+{
+    input();
+    bubbleSortArray();
+    display();
+    binarySearch();
+
+    return 0;
+}   
         
         
 
